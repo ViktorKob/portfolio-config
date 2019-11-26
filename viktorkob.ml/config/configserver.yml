@@ -2,9 +2,9 @@
 # Service settings:
 ####################
 
-service-port: 8120
+service-port: 8888
 discovery-address: 172.31.18.122:8000
 external-service-address: viktorkob.ml
 external-protocol: https://
-
-####################
+eureka.instance.hostname: viktorkob.ml
+spring.main.allow-bean-definition-overriding: true

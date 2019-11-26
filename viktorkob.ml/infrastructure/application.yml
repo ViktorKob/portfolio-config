@@ -1,0 +1,12 @@
+####################
+# Service settings:
+####################
+
+service-port: 8000
+discovery-address: 172.31.18.122:8000
+external-service-address: viktorkob.ml
+external-protocol: https://
+eureka.instance.hostname: viktorkob.ml
+eureka.instance.prefer-ip-address: true
+
+####################

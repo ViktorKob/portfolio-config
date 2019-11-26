@@ -1,5 +1,5 @@
 ####################
-Service settings:
+# Service settings:
 ####################
 
 service-port: 443
@@ -9,7 +9,7 @@ external-protocol: https://
 spring.main.allow-bean-definition-overriding: true
 
 ####################
-Deduced settings:
+# Deduced settings:
 ####################
 
 eureka.instance.hostname: ${external-service-address}
@@ -18,7 +18,7 @@ eureka.client.service-url.defaultZone: http://service-user:password@${discovery-
 eureka.instance.prefer-ip-address: true
 
 ####################
-Hystrix settings:
+# Hystrix settings:
 ####################
 
 hystrix.command.default.execution.isolation.strategy: THREAD

@@ -1,0 +1,16 @@
+####################
+# Service settings:
+####################
+
+service-port: 8001
+discovery-address: 172.31.18.122:8000
+external-service-address: viktorkob.ml
+external-protocol: https://
+eureka.instance.hostname: 172.31.18.122
+server.use-forward-headers: true
+spring.boot.admin.client.instance.service-base-url: https://viktorkob.ml/Admin
+eureka.instance.prefer-ip-address: true
+
+####################
+
+spring.main.allow-bean-definition-overriding: true
