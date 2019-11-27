@@ -3,4 +3,4 @@ spring:
       active: viktorkob.ml
    cloud:
       config:
-         uri: http://service-user:password@localhost:8888/Config
+         uri: http://service-user:password@172.31.18.122:8888/Config
