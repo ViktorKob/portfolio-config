@@ -6,6 +6,8 @@ service-port: 443
 discovery-address: 172.31.18.122:8000
 external-service-address: viktorkob.ml
 external-protocol: https://
+eureka.instance.non-secure-port-enabled: false
+eureka.instance.secure-port-enabled: true
 spring.main.allow-bean-definition-overriding: true
 
 ####################
@@ -15,7 +17,6 @@ spring.main.allow-bean-definition-overriding: true
 eureka.instance.hostname: ${external-service-address}
 spring.boot.admin.url: ${external-protocol}service-user:password@${external-service-address}:${service-port}
 eureka.client.service-url.defaultZone: http://service-user:password@${discovery-address}${infrastructure-context-path}/eureka/
-eureka.instance.prefer-ip-address: true
 
 ####################
 # Hystrix settings:
